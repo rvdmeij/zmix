@@ -7,7 +7,7 @@ Optimized for Debian 8,9,10,11, Ubuntu 16.04, 18.04, 20.04 and up.
 Needs testing on Linux Mint systems. Please try and share your experiences.
 
 ### Download
-```wget -O /tmp/zmix.sh https://github.com/rvdmeij/zmix/raw/master/install.sh```
+```wget -O /tmp/zmix.sh https://github.com/rvdmeij/zmix/raw/master/zmix.sh```
 
 ### Verify
 ```sha512sum zmix.sh```
