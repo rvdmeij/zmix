@@ -1,0 +1,18 @@
+# .zshrc
+export ZSH=/etc/zsh/oh-my-zsh
+export UPDATE_ZSH_DAYS=365
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+export LANGUAGE="C"
+export LC_ALL="C"
+export LC_CTYPE="C"
+export LANG="C"
+ZSH_THEME="zmixmod"
+DISABLE_AUTO_UPDATE="true"
+ENABLE_CORRECTION="false"
+COMPLETION_WAITING_DOTS="true"
+HIST_STAMPS="dd-mm-yyyy"
+plugins=(git)
+source $ZSH/oh-my-zsh.sh
+alias lx='ls -hlipa'
+zstyle ':completion:*' rehash true
+eval "$(dircolors /etc/zsh/.dir_colors)"
