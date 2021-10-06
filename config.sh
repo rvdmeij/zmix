@@ -27,3 +27,5 @@ cp $ZMIX_PATH/config/zmixmod.zsh-theme /etc/zsh/oh-my-zsh/themes/
 sed -i 's/DSHELL\=\/bin\/bash/DSHELL\=\/bin\/zsh/g' /etc/adduser.conf
 chsh -s $(which zsh)
 
+echo "Succesfully completed!"
+echo

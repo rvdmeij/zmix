@@ -1,4 +1,4 @@
-## ZMIX 2.7
+## ZMIX 2.8
 Preconfigured ZSH shell with Oh-my-ZSH and additional frequently used system utilities like vim which are available 
 within the default system repositories.
 
@@ -13,7 +13,7 @@ Needs testing on Linux Mint systems. Please try and share your experiences.
 ```sha512sum zmix.sh```
 
 This should return:
-```ef8368d2f0bfbfbe459abfbc12c2829e5466de5c64005d43af4f2d167c35b708bf49a00ad8a7f0ed0a0323645cedfcfe4d66fb586d5cfc268ec11a6e74d46184  zmix.sh```
+```aa1cc9782d78285c4f087c438c53b031bc8cb37ff968277b58dd55153587d8fd0c8017acf9960ee7b8a0497513d7934e1999729c210cc07b0f6dddd7b566e3f4  zmix.sh```
 
 ### Permissions
 Set the execution permission:
