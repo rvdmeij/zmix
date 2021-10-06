@@ -1,4 +1,4 @@
-## ZMIX 2.5
+## ZMIX 2.7
 Preconfigured ZSH shell with Oh-my-ZSH and additional frequently used system utilities like vim which are available 
 within the default system repositories.
 
