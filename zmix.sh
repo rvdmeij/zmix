@@ -49,4 +49,4 @@ git clone $REPO $ZMIX_PATH
 git clone https://github.com/ohmyzsh/ohmyzsh.git /etc/zsh/oh-my-zsh
 
 echo "Starting configuration..."
-exec $ZMIX_PATH/config.sh
+exec $ZMIX_PATH/config.sh $ZMIX_PATH

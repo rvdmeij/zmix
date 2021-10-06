@@ -2,6 +2,15 @@
 
 ZMIX_PATH=`pwd`
 
+if [ -z "$ZMIX_PATH" ]; then
+  echo "No path given. Quitting..."
+  exit
+fi
+if [ ! -d "$ZMIX_PATH" ]; then
+  echo "Directory $ZMIX_PATH doesn't exists. Quitting..."
+  exit
+fi
+
 # copy zshrc config
 cp $ZMIX_PATH/config/zshrc /etc/zsh/zshrc
 
