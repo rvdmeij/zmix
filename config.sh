@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ZMIX_PATH=`pwd`
+ZMIX_PATH=$1
 
 if [ -z "$ZMIX_PATH" ]; then
   echo "No path given. Quitting..."
