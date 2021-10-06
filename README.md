@@ -13,7 +13,7 @@ Needs testing on Linux Mint systems. Please try and share your experiences.
 ```sha512sum zmix.sh```
 
 This should return:
-```0cdd3b5ad982f40342f7d8e741da97aed2f3cc8f735b1e88f0e0029fe1592aa7b282c6d1cd3617409c7c4fa1490c2ba39168b0f19c42cf9fac290adb805aa8a7  zmix.sh```
+```314d4147f2daf5d0a059532b922b8ff99498bfb104c3e0b50aa7a475495b3b0af140cae9f587c423b5f2e9545c001e0613dcfd95f275d54e8170c48134e10e41  zmix.sh```
 
 ### Permissions
 Set the execution permission:

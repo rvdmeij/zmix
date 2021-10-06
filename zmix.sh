@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%,,,,,,,,,&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@,,,,,,,,,,,,,,,,,,,,,,,,,@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,@@@@@@@@@@@@@@@@@@
@@ -35,9 +36,8 @@ echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%,,,,,,,,,&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@,,,,,,,,,,,,,,,,,,,,,,,,,@@@@@@@@@@@@@@@@@@@@@@"
 echo "      ZMIX Shell"
 
-
 REPO='https://github.com/rvdmeij/zmix.git'
-PATH='/opt/zmix'
+ZMIX_PATH='/opt/zmix'
 
 echo -n "Installing required modules... "
 apt update 
@@ -45,8 +45,8 @@ apt install python-apt zsh git linuxlogo figlet vim lsb-release sudo dnsutils ho
 echo "done"
 
 echo "Getting things done..."
-git clone $REPO $PATH
+git clone $REPO $ZMIX_PATH
 git clone https://github.com/ohmyzsh/ohmyzsh.git /etc/zsh/oh-my-zsh
 
 echo "Starting configuration..."
-$PATH/config.sh $PATH
+exec $ZMIX_PATH/config.sh
