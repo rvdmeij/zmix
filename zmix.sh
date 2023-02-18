@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo
-echo "ZMIX Shell 1.1"
+echo "ZMIX Shell 2.9"
 echo "For more information please visit https://github.com/rvdmeij/zmix/"
 echo
 echo
