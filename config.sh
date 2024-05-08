@@ -27,5 +27,9 @@ cp $ZMIX_PATH/config/zmixmod.zsh-theme /etc/zsh/oh-my-zsh/themes/
 sed -i 's/DSHELL\=\/bin\/bash/DSHELL\=\/bin\/zsh/g' /etc/adduser.conf
 chsh -s $(which zsh)
 
+# Installing extra modules
+bash $ZMIX_PATH/modules/developer-edition.sh
+bash $ZMIX_PATH/modules/debian-desktop.sh
+
 echo "Succesfully completed!"
 echo

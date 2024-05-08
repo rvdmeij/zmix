@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo
-echo "ZMIX Shell 2.9"
+echo "ZMIX Shell 3.0"
 echo "For more information please visit https://github.com/rvdmeij/zmix/"
 echo
 echo
@@ -24,7 +24,9 @@ fi
 
 echo -n "Installing required modules... "
 apt update 
-apt install zsh git linuxlogo figlet vim lsb-release sudo dnsutils host whois telnet tmux lsof mtr -qq -y
+apt install zsh git linuxlogo figlet vim lsb-release sudo \
+ dnsutils host whois telnet tmux lsof mtr net-tools rsync htop screen \
+ neofetch rsync apt-transport-https ca-certificates curl nmap -qq -y
 echo "done"
 
 echo "Getting things done..."
